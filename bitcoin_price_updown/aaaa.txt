@@ -1,0 +1,23 @@
+Open an SSH client.
+Locate your private key file. The key used to launch this instance is eralptest.pem
+Run this command, if necessary, to ensure your key is not publicly viewable.
+
+ chmod 400 eralptest.pem
+Connect to your instance using its Public IP:
+
+ 15.188.147.110
+Example:
+
+ ssh -i "eralptest.pem" ubuntu@15.188.147.110
+
+15.188.147.110
+
+
+15.188.147.110
+
+ubuntu
+
+
+
+
+ssh -i eralptest.pem -p 80 ubuntu@15.188.147.110
